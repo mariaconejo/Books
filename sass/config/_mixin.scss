@@ -1,0 +1,29 @@
+@mixin liquid {
+    max-width: 100%;
+    width: 100%;
+    
+}
+
+@mixin info {
+
+    text-align: center;
+    background-color: $color-p;
+    padding: 40px 0px 72px 0px;
+    margin-bottom: 25px;
+    
+}
+
+@mixin buttons {
+
+    color:$color-p;
+    padding: 10px 41px;
+    border-radius: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+@mixin h2{
+    font-weight: bold;
+    color:$color-h2;
+}

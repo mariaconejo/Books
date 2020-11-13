@@ -1,0 +1,66 @@
+/*Main*/
+@import'../config/mixin';
+
+.main-template-img{
+    @include liquid;
+}
+
+.main-template-info{
+
+    padding-left: 27px;
+    @include info;
+    
+}
+
+.main-template-info h2{
+    font-size: 34px;
+    font-weight: bold;
+    color:$color-h2;
+}
+
+.main-template-info p{
+
+    font-weight: bold;
+    color:$color-aconres;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+.main-template-button a{
+
+    background-color: $color-button-a;
+    @include buttons;
+
+}
+
+.main-mockup-img{
+
+    @include liquid;
+}
+
+.main-mockup-info{
+
+    @include info;
+
+}
+
+.main-mockup-info h2{
+
+    font-size: 29px;
+    @include h2;
+}
+
+
+.main-mockup-info p{
+
+    color:$color-aconres;
+    padding-bottom: 31px;
+    font-size: 16px;
+}
+
+.main-mockup-button a {
+
+    background-color: $color-button-b;
+    @include buttons;
+    
+}

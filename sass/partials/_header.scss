@@ -15,15 +15,16 @@
 
 .nav{
     float: right;
-    padding: 30px 0px 30px 0px;
+    padding: 42px 0px 42px 0px;
 }
 
-.header-nav li {
+.header-nav{
+    li {
     
     list-style: none;
     float: left; 
     font-size: 13px;
-
+    }
 
     li + li {
         margin-left: 22px; 
