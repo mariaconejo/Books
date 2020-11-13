@@ -533,3 +533,25 @@ ul {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold; }
+
+/*footer*/
+.footer {
+  padding-top: 30px; }
+
+.footer-info {
+  float: left; }
+
+.footer-icon {
+  float: right;
+  padding-top: 15px; }
+
+.footer-icon img {
+  width: 11px;
+  height: 11px;
+  float: left; }
+
+.footer-icon img + img {
+  margin-left: 20px; }
+
+.link-footer {
+  text-decoration: underline; }
