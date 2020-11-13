@@ -304,14 +304,17 @@ template {
   display: none; }
 
 /*global*/
+html {
+  font-size: 16px; }
+
 body {
   margin: 0 auto;
   background-color: #eaeced;
   font-family: 'Open Sans', sans-serif; }
 
 .wrapper-info {
-  margin: 0 auto;
-  width: 600px; }
+  max-width: 600px;
+  margin: 0 auto; }
 
 .clearfix::after {
   content: "";
@@ -322,9 +325,35 @@ ul {
   padding: 0;
   margin: 0; }
 
+.main-template-button a {
+  background-color: #7bb84f;
+  color: #f9f9f9;
+  padding: 10px 41px;
+  border-radius: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.812rem; }
+
+.main-mockup-button a {
+  background-color: #f5ba1c;
+  color: #f9f9f9;
+  padding: 10px 41px;
+  border-radius: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.812rem; }
+
+.box-info-button a {
+  color: #f9f9f9;
+  background-color: #40aceb;
+  padding: 10px 41px;
+  border-radius: 2px;
+  text-decoration: none;
+  text-transform: uppercase; }
+
 /*header*/
 .header-title {
-  font-size: 16px;
+  font-size: 1rem;
   padding: 30px 0px 30px 0px;
   float: left;
   color: #606060;
@@ -341,7 +370,7 @@ ul {
 .header-nav li {
   list-style: none;
   float: left;
-  font-size: 13px; }
+  font-size: 0.812rem; }
 
 .header-nav li + li {
   margin-left: 22px; }
@@ -352,6 +381,7 @@ ul {
   font-weight: bold; }
 
 /*Main*/
+/*imagen*/
 .main-template-img {
   max-width: 100%;
   width: 100%; }
@@ -363,25 +393,6 @@ ul {
   padding: 40px 0px 72px 0px;
   margin-bottom: 25px; }
 
-.main-template-info h2 {
-  font-size: 34px;
-  font-weight: bold;
-  color: #000000; }
-
-.main-template-info p {
-  font-weight: bold;
-  color: #9c9c9c;
-  padding-bottom: 20px;
-  font-size: 16px; }
-
-.main-template-button a {
-  background-color: #7bb84f;
-  color: #f9f9f9;
-  padding: 10px 41px;
-  border-radius: 2px;
-  text-decoration: none;
-  text-transform: uppercase; }
-
 .main-mockup-img {
   max-width: 100%;
   width: 100%; }
@@ -392,23 +403,27 @@ ul {
   padding: 40px 0px 72px 0px;
   margin-bottom: 25px; }
 
+/* texto*/
+.main-template-info h2 {
+  font-size: 2.125rem;
+  font-weight: bold;
+  color: #000000; }
+
+.main-template-info p {
+  font-weight: bold;
+  color: #9c9c9c;
+  padding-bottom: 20px;
+  font-size: 1rem; }
+
 .main-mockup-info h2 {
-  font-size: 29px;
+  font-size: 1.812rem;
   font-weight: bold;
   color: #000000; }
 
 .main-mockup-info p {
   color: #9c9c9c;
   padding-bottom: 31px;
-  font-size: 16px; }
-
-.main-mockup-button a {
-  background-color: #f5ba1c;
-  color: #f9f9f9;
-  padding: 10px 41px;
-  border-radius: 2px;
-  text-decoration: none;
-  text-transform: uppercase; }
+  font-size: 1rem; }
 
 /* box*/
 .box {
@@ -418,6 +433,7 @@ ul {
   padding: 72px 0px 100px 0px;
   margin-bottom: 35px; }
 
+/* texto*/
 .box-info {
   width: 500px;
   margin: 0 auto; }
@@ -437,6 +453,23 @@ ul {
 .box-info-img1 img {
   display: block; }
 
+.box-info-img2 {
+  float: right; }
+
+.box-info-img2 img {
+  display: block; }
+
+.box-info-img3 {
+  float: left; }
+
+.box-info-img3 img {
+  display: block; }
+
+.box-info-img4 img {
+  display: block;
+  margin-bottom: 30px; }
+
+/* Info */
 .box-info-text-right1 {
   line-height: 23px;
   float: right;
@@ -456,18 +489,6 @@ ul {
   padding: 50px 60px 50px 40px;
   text-align: right; }
 
-.box-info-img2 {
-  float: right; }
-
-.box-info-img2 img {
-  display: block; }
-
-.box-info-img3 {
-  float: left; }
-
-.box-info-img3 img {
-  display: block; }
-
 .box-info-text-right3 {
   line-height: 23px;
   float: right;
@@ -486,18 +507,6 @@ ul {
   padding: 57px 60px 54px 40px;
   text-align: right; }
 
-.box-info-img4 img {
-  display: block;
-  margin-bottom: 30px; }
-
-.box-info-button a {
-  color: #f9f9f9;
-  background-color: #40aceb;
-  padding: 10px 41px;
-  border-radius: 2px;
-  text-decoration: none;
-  text-transform: uppercase; }
-
 /* Gallery */
 .ourgallery-info {
   margin-bottom: 28px;
@@ -507,10 +516,13 @@ ul {
   padding-top: 70px; }
   .ourgallery-info h2 {
     color: #f9f9f9;
-    font-size: 29px; }
+    font-size: 1.812rem; }
   .ourgallery-info p {
     color: #707173;
-    font-size: 16px; }
+    font-size: 1rem; }
+
+.ourgallery-photos img {
+  padding: 3px; }
 
 .ourgallery-button {
   margin-top: 30px;

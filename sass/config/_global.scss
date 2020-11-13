@@ -1,14 +1,22 @@
 /*global*/
+html{
+
+    font-size: 16px;
+
+}
 
 body{
     margin: $auto;
     background-color: $color-font;
     font-family: 'Open Sans', sans-serif;
 }
+// font-size / tamaño del padre rem
+// width padre / width actual * 100  no usar tanto en padding margin 
 
 .wrapper-info{
+
+    max-width: 600px;
     margin: $auto;
-    width: 600px;
 
 }
 

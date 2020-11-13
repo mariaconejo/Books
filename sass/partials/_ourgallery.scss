@@ -11,13 +11,17 @@
 
     h2{
         color:$color-p;
-        font-size: 29px;
+        font-size: 1.812rem;
     }
 
     p{
         color: $color-font-gallery;
-        font-size: 16px;
+        font-size: 1rem;
     }
+}
+
+.ourgallery-photos img{
+    padding: 3px;
 }
 
 .ourgallery-button {

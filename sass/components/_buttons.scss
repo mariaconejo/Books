@@ -1,0 +1,30 @@
+@import'../config/mixin';
+
+.main-template-button a {
+
+    background-color: $color-button-a;
+    @include buttons;
+
+}
+
+
+.main-mockup-button a {
+
+    background-color: $color-button-b;
+    @include buttons;
+    
+}
+
+
+
+.box-info-button a {
+
+    color: $color-p;
+    background-color: $color-button-c;
+    padding: 10px 41px;
+    border-radius: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
