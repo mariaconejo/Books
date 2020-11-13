@@ -1,0 +1,39 @@
+/*header*/
+
+.header-title{
+    font-size: 16px;
+    padding: 30px 0px 30px 0px;
+    float: left;
+    color: $color-title;
+    font-weight: bold; 
+}
+
+.link{
+    color: $color-link;
+    text-decoration: underline;
+}
+
+.nav{
+    float: right;
+    padding: 30px 0px 30px 0px;
+}
+
+.header-nav li {
+    
+    list-style: none;
+    float: left; 
+    font-size: 13px;
+
+
+    li + li {
+        margin-left: 22px; 
+    }
+
+
+    li a {
+        color: $color-aconres;
+        text-decoration: none;
+        font-weight: bold; 
+    }
+
+}

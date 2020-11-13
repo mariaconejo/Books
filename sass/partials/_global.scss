@@ -1,0 +1,24 @@
+/*global*/
+
+body{
+    margin: $auto;
+    background-color: $color-font;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper-info{
+    margin: $auto;
+    width: 600px;
+
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table; 
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
