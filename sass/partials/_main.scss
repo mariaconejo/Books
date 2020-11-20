@@ -1,14 +1,16 @@
 /*Main*/
 .main{
-    max-width: 100%;
+    max-width: 600px;
     width: 100%;
 }
 
 .main-template{
+    max-width: 600px;
     max-width: 100%;
 }
 
 .main-mockup{
+    max-width: 600px;
     max-width: 100%;
 }
 
@@ -20,7 +22,7 @@
 
 .main-template-info{
 
-    padding-left: 27px;
+    padding-left: 5.4%;
     @include info;
     
 }
@@ -48,7 +50,7 @@
 
     font-weight: bold;
     color:$color-aconres;
-    padding-bottom: 20px;
+    padding-bottom: 4%;
     font-size: 1rem;
 }
 
@@ -62,7 +64,7 @@
 .main-mockup-info p{
 
     color:$color-aconres;
-    padding-bottom: 31px;
+    padding-bottom: 6.2%;
     font-size: 1rem;
 }
 

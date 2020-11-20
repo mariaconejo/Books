@@ -3,69 +3,79 @@
     color: $color-aconres;
     text-align: center;
     background-color: $color-p;
-    padding: 72px 0px 100px 0px;
-    margin-bottom: 35px;
+    padding: 14.4% 0 20% 0;
+    margin-bottom: 7%;
     max-width: 100%;
 }
 
 /* texto*/
 .box-info{
     width: 500px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
 .box-info h2{
 
     color: $color-h2;
-    font-size: 29px;
+    font-size: 1.812rem;
 
 }
 
 .box-info p{
     color:$color-aconres;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 
 .box-info-img1{
-    margin-top: 37px;
+    margin-top: 12.333%;
 }
 
 .box-column1{
 
     float: left;
+    width: 50%;
+    margin: 0% auto;
 
 }
 
 .box-column2{
     float: right;
+    width: 50%;
+    margin: 0% auto;
 }
 
 .box-info-img1 img{
     display: block;
     max-width: 100%;
+    width: 100%;
 }
 
 
 .box-info-img2 img{
     display: block;
     max-width: 100%;
+    width: 100%;
 }
 
 
 .box-info-img3 img{
     display: block;
     max-width: 100%;
+    width: 100%;
 }
 
 .box-info-img4 img{
     display: block;
     max-width: 100%;
-    margin-bottom: 40px;
+    width: 100%;
+    margin-bottom: 13.333%;
 }
 
 /* Info */
 .box-info-text-right1{
+    font-size: 0.937rem;
     line-height: 1.437rem;
     width: 200px;
     color: $color-p;
@@ -77,6 +87,7 @@
 
 
 .box-info-text-left2{
+    font-size: 0.937rem;
     line-height: 1.437rem;
     width: 200px;
     color: $color-p;
@@ -87,6 +98,7 @@
 
 
 .box-info-text-right3{
+    font-size: 0.937rem;
     line-height: 1.437rem;
     width: 200px;
     color: $color-p;
@@ -96,6 +108,7 @@
 }
 
 .box-info-text-left4{
+    font-size: 0.937rem;
     line-height: 1.437rem;
     width: 200px;
     color: $color-p;
