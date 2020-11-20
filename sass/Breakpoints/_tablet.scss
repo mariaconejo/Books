@@ -1,5 +1,15 @@
 @media(max-width:1023px){
-
-    
-
+    .header{
+        position: relative;
+    }
+    .header-nav{
+        display: none;
+    }
+        
+    .header-burger{
+        display:block;
+        position: absolute;
+        right: 3px;
+        top: 43px;
+    }
 }

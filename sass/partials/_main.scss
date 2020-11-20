@@ -1,10 +1,21 @@
 /*Main*/
-@import'../config/mixin';
+.main{
+    max-width: 100%;
+    width: 100%;
+}
 
+.main-template{
+    max-width: 100%;
+}
+
+.main-mockup{
+    max-width: 100%;
+}
 
 /*imagen*/
-.main-template-img{
+.main-template-img img{
     @include liquid;
+    display: block;
 }
 
 .main-template-info{
@@ -14,8 +25,9 @@
     
 }
 
-.main-mockup-img{
 
+.main-mockup-img img{
+    display: block;
     @include liquid;
 }
 

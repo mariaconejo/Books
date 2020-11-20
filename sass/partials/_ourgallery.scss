@@ -1,4 +1,8 @@
 /* Gallery */
+.ourgallery{
+    max-width: 100%;
+    width: 100%;
+}
 
 .ourgallery-info{
 
@@ -22,12 +26,12 @@
 
 .ourgallery-photos img{
     padding: 3px;
+    max-width: 100%;
 }
 
 .ourgallery-button {
     margin-top: 30px;
     text-align: center; 
-
 
     a {
         text-decoration: none;

@@ -5,6 +5,7 @@
     background-color: $color-p;
     padding: 72px 0px 100px 0px;
     margin-bottom: 35px;
+    max-width: 100%;
 }
 
 /* texto*/
@@ -27,39 +28,45 @@
 
 
 .box-info-img1{
-    float: left;
     margin-top: 37px;
+}
+
+.box-column1{
+
+    float: left;
+
+}
+
+.box-column2{
+    float: right;
 }
 
 .box-info-img1 img{
     display: block;
+    max-width: 100%;
 }
 
-.box-info-img2{
-    float: right; 
-}
 
 .box-info-img2 img{
     display: block;
+    max-width: 100%;
 }
 
-.box-info-img3{
-    float: left; 
-}
 
 .box-info-img3 img{
     display: block;
+    max-width: 100%;
 }
 
 .box-info-img4 img{
     display: block;
-    margin-bottom: 30px;
+    max-width: 100%;
+    margin-bottom: 40px;
 }
 
 /* Info */
 .box-info-text-right1{
-    line-height: 23px;
-    float: right;
+    line-height: 1.437rem;
     width: 200px;
     color: $color-p;
     background-color: $color-box-1;
@@ -70,8 +77,7 @@
 
 
 .box-info-text-left2{
-    line-height: 23px;
-    float: left;
+    line-height: 1.437rem;
     width: 200px;
     color: $color-p;
     background-color: $color-box-2;
@@ -81,8 +87,7 @@
 
 
 .box-info-text-right3{
-    line-height: 23px;
-    float: right;
+    line-height: 1.437rem;
     width: 200px;
     color: $color-p;
     background-color: $color-box-3;
@@ -91,15 +96,13 @@
 }
 
 .box-info-text-left4{
-    line-height: 23px;
-    float: left;
+    line-height: 1.437rem;
     width: 200px;
     color: $color-p;
     background-color: $color-box-4;
     padding: 57px 60px 54px 40px;
     text-align: right;
-
-    
+    margin-bottom: 40px;
 }
 
 
